@@ -3,7 +3,7 @@
 Workshop promo hub for **devlikebear**: a workshop that ships small tools.
 It links to saju, insights, tars, linetta, the blog, and GitHub.
 
-It's a static site with no build step, no JavaScript, and no third-party scripts, fonts, or trackers.
+It's a static site with no build step and no third-party scripts, fonts, or trackers. The only JavaScript is the pageview script from the self-hosted, cookieless Umami at `analytics.marvin-42.com`; the CSP in `_headers` allows that origin and nothing else.
 
 ## Files
 
