@@ -1,7 +1,7 @@
 # marvin-42
 
 Workshop promo hub for **devlikebear**: a workshop that ships small tools.
-It links to saju, insights, tars, linetta, the blog, and GitHub.
+It links to MOOD, insights, tars, linetta, the blog, and GitHub.
 
 It's a static site with no build step and no third-party scripts, fonts, or trackers. The only JavaScript is the pageview script from the self-hosted, cookieless Umami at `analytics.marvin-42.com`; the CSP in `_headers` allows that origin and nothing else.
 
@@ -32,7 +32,7 @@ The apex **marvin-42.com** (same as **www.marvin-42.com**) serves this landing p
 
 There's no `_redirects` file on purpose. Pages `_redirects` only matches paths, not hostnames, so it can't redirect between www and the apex.
 
-The product subdomains (`mood.`, `insights.`, `tars.`) are separate deployments and aren't part of this repo. The saju tool's public host is `mood.marvin-42.com`; `saju.marvin-42.com` may still resolve in parallel.
+The product subdomains (`mood.`, `insights.`, `tars.`) are separate deployments and aren't part of this repo. MOOD (saju, tarot, zodiac; formerly "saju") is served at `mood.marvin-42.com`; `saju.marvin-42.com` may still resolve in parallel.
 
 ## Local preview
 
