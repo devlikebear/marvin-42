@@ -32,7 +32,7 @@ The apex **marvin-42.com** (same as **www.marvin-42.com**) serves this landing p
 
 There's no `_redirects` file on purpose. Pages `_redirects` only matches paths, not hostnames, so it can't redirect between www and the apex.
 
-The product subdomains (`saju.`, `insights.`, `tars.`) are separate deployments and aren't part of this repo.
+The product subdomains (`mood.`, `insights.`, `tars.`) are separate deployments and aren't part of this repo. The saju tool's public host is `mood.marvin-42.com`; `saju.marvin-42.com` may still resolve in parallel.
 
 ## Local preview
 
